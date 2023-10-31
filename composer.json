@@ -1,5 +1,5 @@
 {
-  "name": "los/losi18n",
+  "name": "zooxsmart/los-i18n",
   "type": "library",
   "description": "I18N middleware providing route and country, region and language lists in all languages",
   "keywords": [
@@ -18,16 +18,16 @@
     }
   ],
   "require": {
-    "php": "^7.4 || ^8.0",
+    "php": "^8.2",
     "ext-json": "*",
-    "psr/container": "^1.1"
+    "psr/container": "^2.0"
   },
   "require-dev": {
-    "doctrine/coding-standard": "^9.0",
-    "ergebnis/composer-normalize": "^2.13",
-    "phpstan/phpstan": "^0.12.85",
-    "squizlabs/php_codesniffer": "^3.6",
-    "vimeo/psalm": "^4.7"
+    "doctrine/coding-standard": "^12.0.0",
+    "ergebnis/composer-normalize": "^2.39",
+    "phpstan/phpstan": "^1.10.39",
+    "squizlabs/php_codesniffer": "^3.7.2",
+    "vimeo/psalm": "^5.15"
   },
   "suggest": {
     "los/losi18n-data": "Data files for LosI18n."
