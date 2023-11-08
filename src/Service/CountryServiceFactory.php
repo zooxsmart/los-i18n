@@ -11,7 +11,7 @@ class CountryServiceFactory
     public function __invoke(ContainerInterface $container): CountryService
     {
         $config      = $container->get('config');
-        $path        = $config['los_i18n']['path'] ?? 'vendor/los/losi18n-data/data';
+        $path        = $config['los_i18n']['path'] ?? 'vendor/zooxsmart/los-i18n-data/data';
         $defaultLang = $config['los_i18n']['default_lang'] ?? 'en';
 
         return new CountryService($path, $defaultLang);

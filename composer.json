@@ -30,7 +30,7 @@
     "vimeo/psalm": "^5.15"
   },
   "suggest": {
-    "los/losi18n-data": "Data files for LosI18n."
+    "zoxsmart/los-i18n-data": "Data files for LosI18n."
   },
   "extra": {
     "zf": {

@@ -8,25 +8,25 @@ PHP 7.4 | 8.0 and any container-interopt compatible project.
 
 ## Installation
 ```
-composer require los/losi18n
+composer require zooxsmart/los-i18n
 ```
 
 Optionally, copy the config file to your project.
 
 ## I18n Data
 
-This module needs data from [losi18n-data](http://github.com/LansoWeb/losi18n-data). So you need either to add the module to you project:
+This module needs data from [los-i18n-data](https://github.com/zooxsmart/los-i18n-data.git). So you need either to add the module to you project:
 
-### Adding the losi18n-data
+### Adding the los-i18n-data
 ```
-composer require los/losi18n-data
+composer require zooxsmart/los-i18n-data
 ```
 
 ### File format
 There are 3 formats: php, json and csv. If you need to import the json file, it's located:
-vendor/los/losi18n-data/data/<language>/languages.json
-vendor/los/losi18n-data/data/<language>/countries.json
-vendor/los/losi18n-data/data/<language>/regions.json
+vendor/zooxsmart/los-i18n-data/data/<language>/languages.json
+vendor/zooxsmart/los-i18n-data/data/<language>/countries.json
+vendor/zooxsmart/los-i18n-data/data/<language>/regions.json
 
 ## Usage
 
